@@ -50,8 +50,8 @@ class _HomePageState extends State<HomePage> {
           children: [
            //Texto "I want to eat
           const Padding(
-             padding: const EdgeInsets.all(24.0),
-             child:  const Row(
+             padding: EdgeInsets.all(24.0),
+             child: Row(
              children: [
              Text("I want to ", style: TextStyle(fontSize: 24),),
              Text(
